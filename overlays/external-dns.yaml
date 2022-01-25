@@ -11,7 +11,7 @@ spec:
   source:
     chart: external-dns
     repoURL: https://charts.bitnami.com/bitnami
-    targetRevision: 5.4.0
+    targetRevision: 6.1.2
     helm:
       values: |-
         aws: 
@@ -21,9 +21,9 @@ spec:
           create: true
           name: external-dns
           annotations:
-            "arn:aws:iam::573366771204:role/xap-op-dev-external-dns"
+            eks.amazonaws.com/role-arn: "arn:aws:iam::573366771204:role/xap-op-dev-external-dns"
         podAnnotation:
-            arn:aws:iam::573366771204:role/xap-op-dev-external-dns
+          iam.amazonaws.com/role-arn:  arn:aws:iam::573366771204:role/xap-op-dev-external-dns
         txtOwnerId: external-dns
         txtPrefix: giga-
         publishInternalServices: true
