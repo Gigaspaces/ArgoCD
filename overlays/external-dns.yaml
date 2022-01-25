@@ -25,7 +25,7 @@ spec:
         podAnnotation:
             arn:aws:iam::573366771204:role/xap-op-dev-external-dns
         txtOwnerId: external-dns
-        txtPrefix: Giga-
+        txtPrefix: giga-
         publishInternalServices: true
         provider: aws
         serviceTypeFilter:
