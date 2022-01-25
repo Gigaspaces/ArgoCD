@@ -6,8 +6,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: git@github.com:Gigaspaces/xap-umbrella-chart.git
-    path: apps/argocd/overlays/
+    repoURL: git@github.com:Gigaspaces/ArgoCD.git
+    path: kustomization.yaml
     targetRevision: main
   destination:
     server: https://kubernetes.default.svc
