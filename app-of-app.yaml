@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: git@github.com:Gigaspaces/xap-umbrella-chart.git
-    path: 
+    path: overlays
     targetRevision: main
   destination:
     server: https://kubernetes.default.svc
