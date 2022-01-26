@@ -14,7 +14,7 @@ spec:
     targetRevision: main
   destination:
     server: 'https://kubernetes.default.svc'
-    namespace: gigaci
+    namespace: neptun
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
