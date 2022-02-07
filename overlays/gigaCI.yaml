@@ -9,8 +9,6 @@ spec:
     helm:
       valueFiles:
         - jcasc-us.yaml
-        - continuous-mail-template-cm.yaml
-        - release-mail-template-cm.yaml
     repoURL: 'git@github.com:Gigaspaces/xap-umbrella-chart.git'
     path: gigaumbrella
     targetRevision: main
