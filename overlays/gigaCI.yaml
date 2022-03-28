@@ -9,7 +9,7 @@ spec:
     helm:
       valueFiles:
         - jcasc-us.yaml
-    repoURL: 'git@github.com:Gigaspaces/xap-umbrella-chart.git'
+    repoURL: 'https://github.com/Gigaspaces/xap-umbrella-chart.git'
     path: gigaumbrella
     targetRevision: main
   destination:
